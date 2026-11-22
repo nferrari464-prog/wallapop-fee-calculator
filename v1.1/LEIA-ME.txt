@@ -1,0 +1,28 @@
+Calculadora Proteção Wallapop PT — VERSÃO 1.1
+
+Instalação:
+1. Extrai o ZIP para uma pasta.
+2. Abre o Chrome e visita chrome://extensions.
+3. Ativa "Modo de programador".
+4. Clica em "Carregar expandida".
+5. Escolhe a pasta extraída.
+
+Atualizar a partir de uma versão anterior:
+1. Abre chrome://extensions.
+2. Remove a versão anterior ou carrega a nova pasta extraída.
+3. Atualiza a página do anúncio Wallapop.
+
+Tabela implementada:
+- 1 € a 25 €: 1,95 €
+- acima de 25 € até 100 €: 1,95 + (161/1500) * (preço - 25)
+- acima de 100 € até 300 €: 10 + 9,1 * ln(preço/100)
+- acima de 300 € até 1.000 €: 20 €
+- acima de 1.000 € até 2.500 €: 50 €
+
+Fora de 1 € a 2.500 €: sem cálculo, porque não está dentro da Proteção Wallapop.
+
+A taxa e o total estão arredondados a duas casas decimais.
+O total mostrado é preço do artigo + taxa de proteção. Não inclui portes.
+
+
+Aviso: Confirma sempre o preço definitivo no checkout do Wallapop.

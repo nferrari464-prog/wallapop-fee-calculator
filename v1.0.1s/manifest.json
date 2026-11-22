@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "Calculadora Proteção Wallapop PT Simplificada",
+  "version": "1.0.1",
+  "description": "Faz automaticamente o cálculo do valor do artigo com a Proteção Wallapop",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+   "action": {
+    "default_popup": "popup.html",
+    "default_title": "Calculadora Proteção Wallapop"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.wallapop.com/*"
+      ],
+      "exclude_matches": [
+        "*://*.wallapop.com/checkout*",
+        "*://*.wallapop.com/*/checkout*",
+        "*://*.wallapop.com/f2f*",
+        "*://*.wallapop.com/*/f2f*",
+		"*://*.wallapop.com/carros*",
+		"*://*.wallapop.com/moto*",
+		"*://*.wallapop.com/imoveis*",
+		"*://*.wallapop.com/empregos*",
+		"*://*.wallapop.com/servicos*"
+      ],
+	  "exclude_globs": [
+		"*category_id=100&*",
+		"*category_id=14000&*",
+		"*category_id=200&*",
+		"*category_id=21000&*",
+		"*category_id=13200&*",
+		"*TEzMjAw",
+		"*TIxMDAw"
+	  ],
+	  "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

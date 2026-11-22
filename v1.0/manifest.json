@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Calculadora Proteção Wallapop PT",
+  "version": "1.0",
+  "description": "Introduz automaticamente o valor do artigo com a Proteção Wallapop",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.wallapop.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
