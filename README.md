@@ -8,7 +8,7 @@ A Chrome extension that calculates Wallapop Portugal's Protection Fee directly o
 
 ## Installation
 
-1. Go to the [Releases page](https://github.com/nferrari464-prog/wallapop-fee-calculator/releases) and download the `.zip` file of the latest version (not "Source code").
+1. Go to the [Releases page](https://github.com/nferrari464-prog/wallapop-fee-calculator-pt/releases) and download the `.zip` file of the latest version (not "Source code").
 2. Extract the ZIP file to a folder.
 3. Open Chrome and go to `chrome://extensions`.
 4. Turn on **Developer mode**.
@@ -39,7 +39,7 @@ A Chrome extension that calculates Wallapop Portugal's Protection Fee directly o
 
 ## Versions
 
-The source code in this repository is visible on the main page. Every version can be downloaded as a `.zip` file from the [Releases page](https://github.com/nferrari464-prog/wallapop-fee-calculator/releases).
+The source code in this repository is visible on the main page. Every version can be downloaded as a `.zip` file from the [Releases page](https://github.com/nferrari464-prog/wallapop-fee-calculator-pt/releases).
 
 ## License
 
