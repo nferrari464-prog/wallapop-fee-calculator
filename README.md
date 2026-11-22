@@ -3,6 +3,9 @@ A Chrome extension that calculates Wallapop's Protection Fee directly on the web
 
 > **Disclaimer:** this is an independent project. It has no commercial association with Wallapop.
 
+
+**Language**: PT-PT
+
 ## Installation
 
 1. Go to the [Releases page](https://github.com/nferrari464-prog/wallapop-fee-calculator/releases) and download the `.zip` file of the latest version (not "Source code").
