@@ -1,5 +1,5 @@
 # Wallapop Fee Calculator
-A Chrome extension that calculates Wallapop's Protection Fee directly on the website.
+A Chrome extension that calculates Wallapop Portugal's Protection Fee directly on the website.
 
 > **Disclaimer:** this is an independent project. It has no commercial association with Wallapop.
 
